@@ -1,4 +1,4 @@
-# Cotizador de Seguros - con StyledComponents y Animaciones
+# Frases de Breaking Bad - Consumida de un API.
 
 _En la siguiente aplicacion podemos ver que se consume una **API** que nos trae frases de la popular serie **The Breaking Bad**, y las mostramos por medio de un componente, y cada vez que le damos al boton de obtener frase, claramente traera otra frase._
 
