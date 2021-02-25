@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import {useState,useEffect} from 'react';
 import styled from '@emotion/styled';
 import Frase from './components/Frase';
 
@@ -38,6 +38,12 @@ function App() {
   
     guardarFrase(frase[0]);
   }
+
+  //cargar una frase con useEffect
+
+  useEffect(() => {
+    consultarAPI()
+  }, [])
 
   return (
     <Contenedor>
