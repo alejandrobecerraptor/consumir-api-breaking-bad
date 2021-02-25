@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# Cotizador de Seguros - con StyledComponents y Animaciones
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+_En la siguiente aplicacion podemos ver que se consume una **API** que nos trae frases de la popular serie **The Breaking Bad**, y las mostramos por medio de un componente, y cada vez que le damos al boton de obtener frase, claramente traera otra frase._
 
-## Available Scripts
+## Demo 🎮
 
-In the project directory, you can run:
+Este es el Demo de la aplicacion, **Update[ 25/02/2021 ]** [Click Aqui](https://vigorous-shirley-069c85.netlify.app/).
 
-### `npm start`
+## Importante ℹ
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+_si entras en cada uno de los commits podras ver como fue mi proceso paso a paso de lo que fui aprendiendo en el curso de react, y si quieres algo en especifico buscarlo en alguno de los commits del proyecto y alli lo encontraras!._
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Comenzando 🚀
 
-### `npm test`
+_Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas._
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Facil primero lo clonas con este comando:
 
-### `npm run build`
+## `git clone https://github.com/alejandrobecerraptor/consumir-api-breaking-bad.git`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+_Despues de eso te toca descargar las dependencias con:_ ⚙️
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## `npm install`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+_luego tendras que arrancar el proyecto y para eso necesitas ejecutar el comando:_
 
-### `npm run eject`
+## `npm start`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+y listo disfruta! 🍦
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Construido con 🛠️
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* [ReactJs](https://reactjs.org/) - Libreria de JavaScript
+* [NPM](https://nodejs.org/es/download/) - Manejador de dependencias
+* [create-react-app](https://github.com/facebook/create-react-app) - Herramienta para la creacion del proyecto.
+* [API-frases](https://breaking-bad-quotes.herokuapp.com/v1/quotes) - API que me trae un JSON de las frases con su autor.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## Autores ✒️
 
-## Learn More
+* **Alejandro Becerra** - *Desarrollador Inicial* - [GitHub](https://github.com/alejandrobecerraptor)
+Allí Encontraras mi correo de contacto.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contribuyendo 📣
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+¿Tienes ideas para aportar a este proyecto? por favor ingresa a mi perfil  [Aquí](https://github.com/alejandrobecerraptor) y busca mi correo de contacto para detalles del proceso para enviarnos pull requests.
 
-### Code Splitting
+## ¿Quieres saber mas de ReactJs?
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+si quieres crear un proyecto con ReactJs te recomiendo que visites este link [Create React App](https://github.com/facebook/create-react-app).
 
-### Analyzing the Bundle Size
+Puedes leer mas en el siguiente link, [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+y tambien por aqui ;) [React documentation](https://reactjs.org/).
